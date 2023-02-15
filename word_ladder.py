@@ -41,7 +41,7 @@ def word_ladder(start_word, end_word, dictionary_file='words5.dict'):
     if len(start_word) != 5 or len(end_word) != 5:
         return None
     if start_word == end_word:
-        return[start_word]
+        return [start_word]
     stack = []
     stack.append(start_word)
     queue = deque()
